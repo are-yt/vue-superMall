@@ -1,7 +1,7 @@
 import axios from "axios"
 export function request(config) {
     const axiosInstance = axios.create({
-        baseURL:"http://152.136.185.210:8000/api/z8",
+        baseURL:"0",
         timeout:5000
     })
     // 拦截器
